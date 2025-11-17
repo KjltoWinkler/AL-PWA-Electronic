@@ -1,0 +1,30 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Team members -->
+  <circle cx="80" cy="80" r="25" fill="url(#teamGrad)"/>
+  <circle cx="150" cy="70" r="25" fill="#10b981"/>
+  <circle cx="220" cy="85" r="25" fill="#f59e0b"/>
+  
+  <!-- Connecting lines -->
+  <line x1="105" y1="80" x2="125" y2="75" stroke="#6b7280" stroke-width="2"/>
+  <line x1="175" y1="75" x2="195" y2="80" stroke="#6b7280" stroke-width="2"/>
+  
+  <!-- Idea bubbles -->
+  <circle cx="60" cy="40" r="15" fill="#e0f2fe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="60" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#1e40af">💡</text>
+  
+  <circle cx="170" cy="30" r="15" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="170" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#059669">⚡</text>
+  
+  <circle cx="240" cy="45" r="15" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="240" y="50" text-anchor="middle" font-family="Arial" font-size="12" fill="#d97706">🚀</text>
+  
+  <!-- Base -->
+  <rect x="20" y="140" width="260" height="40" fill="#f1f5f9" rx="20"/>
+  <text x="150" y="165" text-anchor="middle" font-family="Arial" font-size="14" fill="#374151" font-weight="bold">Teamwork</text>
+</svg>
